@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <h1>Garrett Grube</h1>
+      <h2>Full-Stack Engineer • NYC</h2>
+      <p>
+        <a href="https://react-redux-checkers.herokuapp.com/" target="blank">
+          a checkers game I built
         </a>
-      </header>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/garrett-grube/" target="blank">
+          linkedin
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/gdg10" target="blank">
+          github
+        </a>
+      </p>
     </div>
   );
 }
