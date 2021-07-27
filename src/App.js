@@ -5,26 +5,33 @@ function App() {
   return (
     <div className="App">
       <h1>Garrett Grube</h1>
-      <h2>Full-Stack Engineer • NYC</h2>
-      <br/>
+      <h2>Full-Stack Engineer based in NYC</h2>
+      <br />
       <p>
-        <a href="https://react-redux-checkers.herokuapp.com/" target="blank">
+        <a
+          href="https://react-redux-checkers.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           A Checkers Game
         </a>
       </p>
       <p>
-        <a href="https://github.com/gdg10/garrett" target="blank">
+        <a
+          href="https://github.com/gdg10/garrett"
+          target="_blank"
+          rel="noreferrer"
+        >
           This Website's Code
         </a>
       </p>
       <p>
-        <a href="https://www.linkedin.com/in/garrett-grube/" target="blank">
+        <a
+          href="https://www.linkedin.com/in/garrett-grube/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Linkedin Profile
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/gdg10" target="blank">
-          Github Profile
         </a>
       </p>
     </div>
