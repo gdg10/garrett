@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Garrett Grube</h1>
-      <h2>Full-Stack Engineer based in NYC</h2>
+      <h2>Senior Full-Stack Engineer and Scrum Master based in NYC</h2>
       <br />
       <p>
         <a
